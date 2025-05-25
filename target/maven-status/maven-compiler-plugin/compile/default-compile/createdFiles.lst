@@ -1,1 +1,5 @@
+com/demo/model/requestObject.class
+com/demo/model/requestObject$Data.class
+com/demo/model/responseObject.class
+com/demo/model/responseObject$Data.class
 com/demo/restassured/program/Main.class

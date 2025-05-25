@@ -244,10 +244,10 @@ Response responseDeleteObjects2 = RestAssured.given()
     System.out.println("Response Delete Object: " + responseDeleteObjects2.asPrettyString());
     
     Assert.assertEquals(responseDeleteObjects2.getStatusCode(), 200,
-        "Expected status code 200 but got " + responseDeleteObjects2.getStatusCode());
+        "Expected status code 200 but got " + responseDeleteObject.getStatusCode());
     
-    Assert.assertEquals(responseDeleteObjects2.jsonPath().getString("status"), "failed",
-        "Expected message to be 'Object deleted " + responseDeleteObjects2.jsonPath().getString("status"));
+    Assert.assertEquals(responseDeleteObject.jsonPath().getString("status"), "failed",
+        "Expected message to be 'Object deleted " + responseDeleteObject.jsonPath().getString("status"));
       
 
       

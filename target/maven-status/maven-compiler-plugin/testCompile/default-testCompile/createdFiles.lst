@@ -1,0 +1,6 @@
+POJO/deserialize.class
+restassured/ecom.class
+POJO/serialize.class
+restassured/login.class
+ScenarioTest/E2ERestAssured.class
+POJO/deserialize$E2ERestAssured.class
