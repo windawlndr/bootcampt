@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.runners.CucumberRunner
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.053 s <<< FAILURE! -- in cucumber.runners.CucumberRunner
+cucumber.runners.CucumberRunner.runScenario["", "Object API"](4) -- Time elapsed: 0.819 s <<< FAILURE!
+com.fasterxml.jackson.databind.exc.MismatchedInputException: 
+Cannot deserialize value of type `java.util.ArrayList<com.demo.model.ResponseObject>` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1767)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1541)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1488)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.handleNonArray(CollectionDeserializer.java:402)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:254)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:30)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4917)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3860)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3843)
+	at cucumber.definitions.ObjectDefinition.checkName(ObjectDefinition.java:82)
+	at ✽.Name in the response must be "Ipad Winda di-Update"(file:///Users/dev2000325/bootcamp/Testing/winda-restassured/src/test/resources/feature/object.feature:55)
+

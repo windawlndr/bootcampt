@@ -1,5 +1,8 @@
-/Users/dev2000325/bootcamp/Testing/winda-restassured/src/test/java/POJO/deserialize.java
-/Users/dev2000325/bootcamp/Testing/winda-restassured/src/test/java/POJO/serialize.java
+/Users/dev2000325/bootcamp/Testing/winda-restassured/src/test/java/POJO/PojoE2E.java
+/Users/dev2000325/bootcamp/Testing/winda-restassured/src/test/java/POJO/StaticVar.java
 /Users/dev2000325/bootcamp/Testing/winda-restassured/src/test/java/ScenarioTest/E2ERestAssured.java
+/Users/dev2000325/bootcamp/Testing/winda-restassured/src/test/java/cucumber/definitions/ObjectDefinition.java
+/Users/dev2000325/bootcamp/Testing/winda-restassured/src/test/java/cucumber/helper/CucumberReport.java
+/Users/dev2000325/bootcamp/Testing/winda-restassured/src/test/java/cucumber/runners/CucumberRunner.java
 /Users/dev2000325/bootcamp/Testing/winda-restassured/src/test/java/restassured/ecom.java
 /Users/dev2000325/bootcamp/Testing/winda-restassured/src/test/java/restassured/login.java

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="cucumber.runners.CucumberRunner" time="6.053" tests="6" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/dev2000325/bootcamp/Testing/winda-restassured/target/test-classes:/Users/dev2000325/bootcamp/Testing/winda-restassured/target/classes:/Users/dev2000325/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.1/jackson-databind-2.18.1.jar:/Users/dev2000325/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.1/jackson-annotations-2.18.1.jar:/Users/dev2000325/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.1/jackson-core-2.18.1.jar:/Users/dev2000325/.m2/repository/io/cucumber/cucumber-testng/7.11.2/cucumber-testng-7.11.2.jar:/Users/dev2000325/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/dev2000325/.m2/repository/io/cucumber/cucumber-core/7.11.2/cucumber-core-7.11.2.jar:/Users/dev2000325/.m2/repository/io/cucumber/cucumber-gherkin/7.11.2/cucumber-gherkin-7.11.2.jar:/Users/dev2000325/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.11.2/cucumber-gherkin-messages-7.11.2.jar:/Users/dev2000325/.m2/repository/io/cucumber/gherkin/26.0.3/gherkin-26.0.3.jar:/Users/dev2000325/.m2/repository/io/cucumber/messages/21.0.1/messages-21.0.1.jar:/Users/dev2000325/.m2/repository/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1.jar:/Users/dev2000325/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/dev2000325/.m2/repository/io/cucumber/datatable/7.11.2/datatable-7.11.2.jar:/Users/dev2000325/.m2/repository/io/cucumber/cucumber-plugin/7.11.2/cucumber-plugin-7.11.2.jar:/Users/dev2000325/.m2/repository/io/cucumber/docstring/7.11.2/docstring-7.11.2.jar:/Users/dev2000325/.m2/repository/io/cucumber/html-formatter/20.2.1/html-formatter-20.2.1.jar:/Users/dev2000325/.m2/repository/io/cucumber/junit-xml-formatter/0.1.0/junit-xml-formatter-0.1.0.jar:/Users/dev2000325/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/dev2000325/.m2/repository/io/cucumber/cucumber-java/7.22.2/cucumber-java-7.22.2.jar:/Users/dev2000325/.m2/repository/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar:/Users/dev2000325/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/dev2000325/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/dev2000325/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/dev2000325/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/dev2000325/.m2/repository/io/rest-assured/rest-assured/5.5.1/rest-assured-5.5.1.jar:/Users/dev2000325/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/dev2000325/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/dev2000325/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/dev2000325/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/dev2000325/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/dev2000325/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/dev2000325/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/dev2000325/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/dev2000325/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/dev2000325/.m2/repository/io/rest-assured/json-path/5.5.1/json-path-5.5.1.jar:/Users/dev2000325/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/dev2000325/.m2/repository/io/rest-assured/rest-assured-common/5.5.1/rest-assured-common-5.5.1.jar:/Users/dev2000325/.m2/repository/io/rest-assured/xml-path/5.5.1/xml-path-5.5.1.jar:/Users/dev2000325/.m2/repository/net/masterthought/cucumber-reporting/5.7.0/cucumber-reporting-5.7.0.jar:/Users/dev2000325/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.0/jackson-datatype-jsr310-2.13.0.jar:/Users/dev2000325/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/dev2000325/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/dev2000325/.m2/repository/joda-time/joda-time/2.10.10/joda-time-2.10.10.jar:/Users/dev2000325/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/dev2000325/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/dev2000325/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/Users/dev2000325/.m2/repository/org/jsoup/jsoup/1.14.2/jsoup-1.14.2.jar:/Users/dev2000325/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/Users/dev2000325/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/dev2000325/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/dev2000325/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/dev2000325/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/Users/dev2000325/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/Users/dev2000325/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/dev2000325/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20211018.2/owasp-java-html-sanitizer-20211018.2.jar:/Users/dev2000325/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/dev2000325/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Jakarta"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk@21/21.0.7/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/dev2000325/bootcamp/Testing/winda-restassured/target/surefire/surefirebooter-20250531222440014_3.jar /Users/dev2000325/bootcamp/Testing/winda-restassured/target/surefire 2025-05-31T22-24-39_967-jvmRun1 surefire-20250531222440014_1tmp surefire_0-20250531222440014_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/dev2000325/bootcamp/Testing/winda-restassured/target/test-classes:/Users/dev2000325/bootcamp/Testing/winda-restassured/target/classes:/Users/dev2000325/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.1/jackson-databind-2.18.1.jar:/Users/dev2000325/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.1/jackson-annotations-2.18.1.jar:/Users/dev2000325/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.1/jackson-core-2.18.1.jar:/Users/dev2000325/.m2/repository/io/cucumber/cucumber-testng/7.11.2/cucumber-testng-7.11.2.jar:/Users/dev2000325/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/dev2000325/.m2/repository/io/cucumber/cucumber-core/7.11.2/cucumber-core-7.11.2.jar:/Users/dev2000325/.m2/repository/io/cucumber/cucumber-gherkin/7.11.2/cucumber-gherkin-7.11.2.jar:/Users/dev2000325/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.11.2/cucumber-gherkin-messages-7.11.2.jar:/Users/dev2000325/.m2/repository/io/cucumber/gherkin/26.0.3/gherkin-26.0.3.jar:/Users/dev2000325/.m2/repository/io/cucumber/messages/21.0.1/messages-21.0.1.jar:/Users/dev2000325/.m2/repository/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1.jar:/Users/dev2000325/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/dev2000325/.m2/repository/io/cucumber/datatable/7.11.2/datatable-7.11.2.jar:/Users/dev2000325/.m2/repository/io/cucumber/cucumber-plugin/7.11.2/cucumber-plugin-7.11.2.jar:/Users/dev2000325/.m2/repository/io/cucumber/docstring/7.11.2/docstring-7.11.2.jar:/Users/dev2000325/.m2/repository/io/cucumber/html-formatter/20.2.1/html-formatter-20.2.1.jar:/Users/dev2000325/.m2/repository/io/cucumber/junit-xml-formatter/0.1.0/junit-xml-formatter-0.1.0.jar:/Users/dev2000325/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/dev2000325/.m2/repository/io/cucumber/cucumber-java/7.22.2/cucumber-java-7.22.2.jar:/Users/dev2000325/.m2/repository/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar:/Users/dev2000325/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/dev2000325/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/dev2000325/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/dev2000325/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/dev2000325/.m2/repository/io/rest-assured/rest-assured/5.5.1/rest-assured-5.5.1.jar:/Users/dev2000325/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/dev2000325/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/dev2000325/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/dev2000325/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/dev2000325/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/dev2000325/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/dev2000325/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/dev2000325/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/dev2000325/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/dev2000325/.m2/repository/io/rest-assured/json-path/5.5.1/json-path-5.5.1.jar:/Users/dev2000325/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/dev2000325/.m2/repository/io/rest-assured/rest-assured-common/5.5.1/rest-assured-common-5.5.1.jar:/Users/dev2000325/.m2/repository/io/rest-assured/xml-path/5.5.1/xml-path-5.5.1.jar:/Users/dev2000325/.m2/repository/net/masterthought/cucumber-reporting/5.7.0/cucumber-reporting-5.7.0.jar:/Users/dev2000325/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.0/jackson-datatype-jsr310-2.13.0.jar:/Users/dev2000325/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/dev2000325/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/dev2000325/.m2/repository/joda-time/joda-time/2.10.10/joda-time-2.10.10.jar:/Users/dev2000325/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/dev2000325/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/dev2000325/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/Users/dev2000325/.m2/repository/org/jsoup/jsoup/1.14.2/jsoup-1.14.2.jar:/Users/dev2000325/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/Users/dev2000325/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/dev2000325/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/dev2000325/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/dev2000325/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/Users/dev2000325/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/Users/dev2000325/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/dev2000325/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20211018.2/owasp-java-html-sanitizer-20211018.2.jar:/Users/dev2000325/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/dev2000325/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/dev2000325"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk@21/21.0.7/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/dev2000325/bootcamp/Testing/winda-restassured"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/dev2000325/bootcamp/Testing/winda-restassured/target/surefire/surefirebooter-20250531222440014_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.7"/>
+    <property name="user.name" value="dev2000325"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.6"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/dev2000325/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/pb/h60fr5f91zs8g2qm84bdsch00000gn/T/"/>
+    <property name="java.version" value="21.0.7"/>
+    <property name="user.dir" value="/Users/dev2000325/bootcamp/Testing/winda-restassured"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/dev2000325/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="21.0.7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;&quot;, &quot;Object API&quot;](1)" classname="cucumber.runners.CucumberRunner" time="0.028">
+    <system-out><![CDATA[
+Scenario:                                             &amp#27;[90m# src/test/resources/feature/object.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe base url is &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://whitesmokehouse.com"&amp#27;[0m &amp#27;[90m# cucumber.definitions.ObjectDefinition.set_base_Url(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Object API&quot;](2)" classname="cucumber.runners.CucumberRunner" time="1.85">
+    <system-out><![CDATA[
+Scenario:                                                            &amp#27;[90m# src/test/resources/feature/object.feature:6&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mSend a http &amp#27;[0m&amp#27;[32m&amp#27;[1m"POST"&amp#27;[0m&amp#27;[32m request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/webhook/api/login"&amp#27;[0m&amp#27;[32m with body:&amp#27;[0m &amp#27;[90m# cucumber.definitions.ObjectDefinition.login_auth(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe response status code should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                        &amp#27;[90m# cucumber.definitions.ObjectDefinition.The_response_status_must_be(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mSave the token from the response to local storage&amp#27;[0m              &amp#27;[90m# cucumber.definitions.ObjectDefinition.saveToken()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Object API&quot;](3)" classname="cucumber.runners.CucumberRunner" time="0.7">
+    <system-out><![CDATA[
+Scenario:                                                              &amp#27;[90m# src/test/resources/feature/object.feature:18&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mSend a http &amp#27;[0m&amp#27;[32m&amp#27;[1m"POST"&amp#27;[0m&amp#27;[32m request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/webhook/api/objects"&amp#27;[0m&amp#27;[32m with body:&amp#27;[0m &amp#27;[90m# cucumber.definitions.ObjectDefinition.login_auth(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe response status code should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                          &amp#27;[90m# cucumber.definitions.ObjectDefinition.The_response_status_must_be(int)&amp#27;[0m
+Object ID: 1081
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mSave the object id from the response to local storage&amp#27;[0m            &amp#27;[90m# cucumber.definitions.ObjectDefinition.saveObjectId()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Object API&quot;](4)" classname="cucumber.runners.CucumberRunner" time="0.819">
+    <failure message="Cannot deserialize value of type `java.util.ArrayList&lt;com.demo.model.ResponseObject&gt;` from Object value (token `JsonToken.START_OBJECT`)&#10; at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]" type="com.fasterxml.jackson.databind.exc.MismatchedInputException"><![CDATA[com.fasterxml.jackson.databind.exc.MismatchedInputException: 
+Cannot deserialize value of type `java.util.ArrayList<com.demo.model.ResponseObject>` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1767)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1541)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1488)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.handleNonArray(CollectionDeserializer.java:402)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:254)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:30)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4917)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3860)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3843)
+	at cucumber.definitions.ObjectDefinition.checkName(ObjectDefinition.java:82)
+	at ✽.Name in the response must be "Ipad Winda di-Update"(file:///Users/dev2000325/bootcamp/Testing/winda-restassured/src/test/resources/feature/object.feature:55)
+]]></failure>
+    <system-out><![CDATA[
+Scenario:                                                                                                     &amp#27;[90m# src/test/resources/feature/object.feature:37&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mMake sure token in local storage not empty&amp#27;[0m                                                            &amp#27;[90m# cucumber.definitions.ObjectDefinition.checkToken()&amp#27;[0m
+Response Winda: {"status":"failed","message":"Object with id = 0 doesn't exist"}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a http &amp#27;[0m&amp#27;[32m&amp#27;[1m"PUT"&amp#27;[0m&amp#27;[32m request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/webhook/37777abe-a5ef-4570-a383-c99b5f5f7906/api/objects/"&amp#27;[0m&amp#27;[32m with body:&amp#27;[0m &amp#27;[90m# cucumber.definitions.ObjectDefinition.updateObject(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe response status code should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                                                                 &amp#27;[90m# cucumber.definitions.ObjectDefinition.The_response_status_must_be(int)&amp#27;[0m
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mName in the response must be &amp#27;[0m&amp#27;[31m&amp#27;[1m"Ipad Winda di-Update"&amp#27;[0m                                                     &amp#27;[90m# cucumber.definitions.ObjectDefinition.checkName(java.lang.String)&amp#27;[0m
+      &amp#27;[31mcom.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.util.ArrayList<com.demo.model.ResponseObject>` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1767)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1541)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1488)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.handleNonArray(CollectionDeserializer.java:402)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:254)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:30)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4917)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3860)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3843)
+	at cucumber.definitions.ObjectDefinition.checkName(ObjectDefinition.java:82)
+	at ✽.Name in the response must be "Ipad Winda di-Update"(file:///Users/dev2000325/bootcamp/Testing/winda-restassured/src/test/resources/feature/object.feature:55)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mCPU Model in the response must be &amp#27;[0m&amp#27;[36m&amp#27;[1m"Chipset A13"&amp#27;[0m                                                         &amp#27;[90m# cucumber.definitions.ObjectDefinition.checkCPUModel(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mScreen size in the response must be &amp#27;[0m&amp#27;[36m&amp#27;[1m"10.9 Inch"&amp#27;[0m                                                         &amp#27;[90m# cucumber.definitions.ObjectDefinition.checkScreenSize(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Object API&quot;](5)" classname="cucumber.runners.CucumberRunner" time="1.317">
+    <system-out><![CDATA[
+Scenario:                                                                            &amp#27;[90m# src/test/resources/feature/object.feature:59&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mMake sure token in local storage not empty&amp#27;[0m                                   &amp#27;[90m# cucumber.definitions.ObjectDefinition.checkToken()&amp#27;[0m
+Response Delete: 
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser Send a http &amp#27;[0m&amp#27;[32m&amp#27;[1m"GET"&amp#27;[0m&amp#27;[32m request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/webhook/api/objectslistId?id="&amp#27;[0m&amp#27;[32m with body:&amp#27;[0m &amp#27;[90m# cucumber.definitions.ObjectDefinition.deletebject(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe response status code should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                                        &amp#27;[90m# cucumber.definitions.ObjectDefinition.The_response_status_must_be(int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mSend a http &amp#27;[0m&amp#27;[32m&amp#27;[1m"GET"&amp#27;[0m&amp#27;[32m request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/webhook/api/objectslistId?id="&amp#27;[0m&amp#27;[32m with body:&amp#27;[0m      &amp#27;[90m# cucumber.definitions.ObjectDefinition.login_auth(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe response status code should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                                        &amp#27;[90m# cucumber.definitions.ObjectDefinition.The_response_status_must_be(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Object API&quot;](6)" classname="cucumber.runners.CucumberRunner" time="0.702">
+    <system-out><![CDATA[
+Scenario:                                                                                                           &amp#27;[90m# src/test/resources/feature/object.feature:72&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mMake sure token in local storage not empty&amp#27;[0m                                                                  &amp#27;[90m# cucumber.definitions.ObjectDefinition.checkToken()&amp#27;[0m
+Response Delete: {"status":"failed","message":"object with id = 0 has been deleted or doesn't exist"}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser Send a http &amp#27;[0m&amp#27;[32m&amp#27;[1m"DELETE"&amp#27;[0m&amp#27;[32m request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/webhook/d79a30ed-1066-48b6-83f5-556120afc46f/api/objects/"&amp#27;[0m&amp#27;[32m with body:&amp#27;[0m &amp#27;[90m# cucumber.definitions.ObjectDefinition.deletebject(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe response status code should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                                                                       &amp#27;[90m# cucumber.definitions.ObjectDefinition.The_response_status_must_be(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

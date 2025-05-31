@@ -1,63 +1,41 @@
 package com.demo.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Data;
 
-public class responseObject {
-    /*
-     * {
-        "id": 521,
-        "name": "Ipad Winda",
-        "data": {
-            "year": "2022",
-            "price": 599,
-            "cpu_model": "Chipset A13",
-            "hard_disk_size": "64GB",
-            "color": "Silver",
-            "capacity": "1",
-            "screen_size": "10.9 Inch"
-        }
+@Data
+public class ResponseObject {
+
+    @JsonProperty("id")
+    private int id;
+
+    @JsonProperty("name")
+    private String name;
+
+    @JsonProperty("data")
+    private ProductData data;
+
+    @Data
+    public static class ProductData {
+        @JsonProperty("year")
+        private String year;
+
+        @JsonProperty("price")
+        private int price;
+
+        @JsonProperty("cpu_model")
+        private String cpuModel;
+
+        @JsonProperty("hard_disk_size")
+        private String hardDiskSize;
+
+        @JsonProperty("color")
+        private String color;
+
+        @JsonProperty("capacity")
+        private String capacity;
+
+        @JsonProperty("screen_size")
+        private String screenSize;
     }
-     */
-@JsonProperty
-public int id;
-
-@JsonProperty
-public String name;
-
-@JsonProperty
-public Data data;
-
-public static class Data {
-    @JsonProperty
-    public String year;
-
-    // Constructor for Data
-    public Data() {}
-
-    @JsonProperty
-    public double price;
-
-    @JsonProperty
-    public String cpu_model;
-
-    @JsonProperty
-    public String hard_disk_size;
-
-    @JsonProperty
-    public String color;
-
-    @JsonProperty
-    public String capacity;
-
-    @JsonProperty
-    public String screen_size;
-
-}
-
-// Constructor for responseObject
-public responseObject() {};
-
-
-
-
 }

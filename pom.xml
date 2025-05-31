@@ -15,6 +15,20 @@
     <artifactId>jackson-databind</artifactId>
     <version>2.18.1</version>
 </dependency>
+<!-- Add dependencies here -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>7.11.2</version> <!-- Use the latest version -->
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>7.22.2</version>
+    <scope>test</scope>
+</dependency>
+
 
 <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
 <dependency>
@@ -37,31 +51,28 @@
     <version>5.5.1</version>
     <scope>test</scope>
 </dependency>
-
+     <dependency>
+            <groupId>net.masterthought</groupId>
+            <artifactId>cucumber-reporting</artifactId>
+            <version>5.7.0</version>
+        </dependency>
     </dependencies>
 
-    <build>
-    <!-- To define the plugin version in your parent POM -->
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>3.5.3</version>
-          <configuration>
-            <suiteXmlFile>src/test/resource/restassured.xml</suiteXmlFile>
-           </configuration>
-       </plugin>
-      </plugins>
-    </pluginManagement>
-    <!-- To use the plugin goals in your POM or parent POM -->
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-      </plugin>
-    </plugins>
-  </build>
+ <build>
+  <plugins>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-surefire-plugin</artifactId>
+      <version>3.5.3</version>
+      <configuration>
+        <includes>
+          <include>**/CucumberRunner.java</include>
+        </includes>
+      </configuration>
+    </plugin>
+  </plugins>
+</build>
+
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
